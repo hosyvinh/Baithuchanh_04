@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    position: relative;
+    padding: 0;
+}
+.all{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    font-family:sans-serif;
+    font-weight: bold;
+    align-items: center;
+}
+.all .top {
+    display: flex;
+    flex-direction:row;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.top .logo{
+    width: 115px;
+}
+.top .logo img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.top .menu{
+    padding-left:10px;
+    width: 1600px;
+    height: 125px;
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+}
+.top .menu >div{
+    align-items: center;
+}
+.top .menu .menu1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.all .top .menu .menu1 .menu11 ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    gap: 20px;
+    background-color: white;
+    padding: 21px;
+    padding-left: 40px;
+}
+.all .top .menu .menu1 .menu12{
+    border: 1px lightgray solid;
+    color: gray;
+    padding: 8px;
+    padding-right: 300px;
+    font-weight: normal;
+}
+.all .top .menu .menu2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:rgb(245, 162, 53);
+    align-items: center;
+}
+.all .top .menu .menu2 .menuc ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    gap: 20px;
+    color: white;
+    padding-left: 40px;
+    background-color:rgb(245, 162, 53);
+}
+.all .top .menu .menu2 .menui ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    background-color:rgb(245, 162, 53);
+    gap: 20px;
+    padding: 15px;
+    padding-right: 40px;
+}
+
+.all .top .menu .menu1 .menu11 ul li:hover{
+    background-color:rgb(187, 181, 176);
+    cursor: pointer;
+}
+.all .top .menu .menu2 .menuc ul li:hover{
+    background-color:rgb(224, 142, 48);
+    cursor: pointer;
+    object-fit: cover;
+}
+.all .menu .menu2 .menui ul .img {
+    background-color:white ; 
+    border-radius: 5px; 
+    width: 50px; 
+    height: 50px;
+    opacity: 0.69;  
+    filter:alpha(opacity=80);
+}
+.all .top .menu .menu2 .menui ul  li:hover{
+    cursor:pointer;
+    background-color: lightyellow;
+}
+.all .menu .menu2 .menui ul .img img{
+    padding-top: 16px;
+    opacity: 0.4;  
+    filter:alpha(opacity=40);
+}
+.all .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+.all  .banners {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    object-fit: cover;
+    height: 700px;
+    width: 1727px;
+    margin-top: 40px;
+}
+.all .banners .skt{
+    background-image:url("images/msi-2019.jpg") ;
+    width: 50%;
+    height: 700px;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 34px;
+    text-align: left;
+    vertical-align:bottom;
+    background-blend-mode:darken ;
+   
+}
+.all  .banners .others{
+    gap: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.all .banners .others .players{
+    height: 50%;
+    background-color: black;
+    background-image: url(/images/msi-2019-players.jpg) ;
+    background-size: 100% 100%;
+    color: white;
+    background-blend-mode:lighten;
+}
+.all .banners .others .add{
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.all .banners .others .add ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.all .banners .others .add ul .im1{
+    background-image: url(/images/levi-jdk.jpg);   
+    background-size: 100% 100%;
+    color: white;
+    width: 427px;
+}
+.all .banners .others .add ul .im2{
+    background-image: url(/images/kieu-anh-hera.jpg);   
+    background-size: 100% 100%;
+    color: white;
+    width: 427px;
+}
+.all .banners .others .add ul .im1 p{
+    position: relative;
+    top: 255px;
+    left:20px;
+    font-size:20px ;
+    font-weight:550;
+
+}
+.all .banners .others .add ul .im2 p{
+    position: relative;
+    top: 238px;
+    left:20px;
+    font-size:20px ;
+    font-weight:550;
+
+}
+.all .banners .others .players a{
+    position: relative;
+    top: 250px;
+    left:20px;
+    font-size:35px  ;
+    font-weight:550;
+
+}
+.all .banners .skt p{
+    font-weight:160;
+    position: relative;
+    top:500px;
+    left:33px;
+}
+.all .tintuc{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-right: 243px;
+    padding-top: 39px;
+    padding-left: 69px;
+}
+
+.all .tintuc >div{
+    display: flex;
+    flex-direction: column;
+}
+.all .tintuc .newest {
+    position: relative;
+    left: 177px;
+}
+.all .tintuc .newest ul{
+    list-style: none;
+}
+.all .tintuc .newest ul li{
+    padding-top:40px;
+    font-size: 16px;
+    text-align: left;
+}
+.all .tintuc .news ul {
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight:600; 
+    list-style: none;
+    padding-top: 20px;
+
+}
+.all .tintuc .news ul li img{
+  object-fit: cover;
+}
+
+.all .tintuc .news ul li p {
+    position: relative;
+    right: 40px;
+    bottom: 25px;
+}
+.all .tintuc .news ul li h3
+{
+    position: relative;
+    right: 40px;
+}
+.all .tintuc .news ul li p .timer{
+    font-size: 13px;
+    color:lightslategray;
+}
+.all .tintuc .news ul li p .des{
+    color: gray;
+    font-size: 15px;   
+    font-weight: normal;
+
+}
+.all .xemthem{
+    border: 1px solid gainsboro;
+    color: gainsboro;
+    font-weight: 600;
+    padding: 9px;
+    font-size: 14px;
+    margin-right: 800px;
+    position: relative;
+    bottom: 45px;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .all .ket{
+    background-color: rgb(68, 67, 67);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    width: 100%;
+    height: 300px;
+  }
+  .all .ket .ct{
+    position: relative;
+left: 90px;
+top: 55px;
+}
+.all .ket .mxh{
+    position: relative;
+    left: 900px;
+    top: 83px;
+    
+}
+  .all .ket .mxh .ixh ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 10px; 
+    
+}
+  .all .ket .mxh .ixh ul li a {
+    background: rgb(78, 77, 77);
+    color: white;
+    width: 10px;
+    height: 10px;
+    padding-right: 400px;
+    cursor: pointer;
+    
+}
+
